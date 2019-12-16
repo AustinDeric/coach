@@ -59,7 +59,7 @@ with open(path.join(here, 'requirements.txt'), 'r') as f:
             continue
         install_requires.append(package)
 
-install_requires.append('tensorflow-gpu==1.14.0')
+#install_requires.append('tensorflow-gpu==1.14.0')
 extras['mxnet'] = ['mxnet-cu90mkl>=1.3.0']
 
 all_deps = []
